@@ -19,6 +19,7 @@ function register()
             {
                 document.getElementById("password2").style.backgroundColor="rgba(255, 0, 0, 0.253)";
                 document.getElementById("password2").innerHTML="Password Doesn't Match";
+                alert("Password Doesn't Match");
             }
         }
         else if(user.value.length<5)
